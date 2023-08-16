@@ -10,4 +10,5 @@ jobs:
   announce:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Hello this is a step"
+      - name: greeting
+        run: echo "Hello this is a step"
