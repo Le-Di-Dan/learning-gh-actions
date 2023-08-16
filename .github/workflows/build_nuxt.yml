@@ -10,5 +10,5 @@ jobs:
   announce:
     runs-on: ubuntu-latest
     steps:
-      - name: greeting
-        run: echo "Hello this is a step"
+      - name: Install dev dependencies.
+        run: echo "Hello ${{secrets.MY_NAME}}"
