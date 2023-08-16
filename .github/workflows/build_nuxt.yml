@@ -1,0 +1,13 @@
+name: Build nuxtjs app
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hello this is a step"
